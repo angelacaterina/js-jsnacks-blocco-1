@@ -84,7 +84,7 @@ console.log("Il peso complessivo delle 10 zucchine è: ", zucchinaUno.peso + zuc
 //     lunghezza: 14
 //   },
 //   {
-//     varietà: "Zucchina bianca triestina" ,
+//     variety: "Zucchina bianca triestina" ,
 //     peso: 50,
 //     lunghezza: 12
 //   },
