@@ -33,8 +33,8 @@ function positionBetween(array, a, b){  //a e b sono numeri
 var result = [];
 
 // modo 1: Valori inseriti manualmate
-// num1 = 4;
-// num2 = 4;
+// num1 = 1;
+// num2 = 6;
 
 // modo 2: Valori generati Random
 num1 = Math.floor(Math.random() * fruits.length);
