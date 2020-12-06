@@ -7,7 +7,7 @@ var num1, num2;
 
 /**
  * Funzione: 'a' più piccolo di 'b' e 'b' grande al massimo quanto il numero di elementi dell’array
- * @param array array - Lista di frasi
+ * @param array array - array composta da stinghe (lista di frutti)
  * @param int a - valore minimo
  * @param int b - valore massimo
  * @return array - nuovo array con i valori che hanno la posizione compresa tra 'a' e 'b'
