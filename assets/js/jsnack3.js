@@ -78,8 +78,8 @@ zucchine.forEach(function(item){
   }
 });
 
-console.log(zucchinePiccole);
-console.log(zucchineMedie);
+console.log("Zucchine con una lunghezza inferiore a 15 cm", zucchinePiccole);
+console.log("Zucchine con una lunghezza superiore a 15 cm",zucchineMedie);
 
 // 3. Infine stampa separatamente quanto pesano i due gruppi di zucchine
 //forEach
@@ -90,7 +90,7 @@ zucchinePiccole.forEach(function(item){
 console.log("Il peso complessivo delle zucchine con una lunghezza inferiore a 15 cm è: ", sommaSmall, "g.");
 
 var sommaMedium = 0;
-zucchinePiccole.forEach(function(item){
+zucchineMedie.forEach(function(item){
   sommaMedium += item.peso;
 });
 console.log("Il peso complessivo delle zucchine con una lunghezza superiore a 15 cm è: ", sommaMedium, "g.");
