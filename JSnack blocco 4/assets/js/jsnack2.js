@@ -26,4 +26,4 @@ biciclette.forEach(function(){
   });
 })
 
-console.log(biciclette[0].weight);
+console.log("La bici con il peso minore è", biciclette[0] ,"e il suo peso è", biciclette[0].weight);
